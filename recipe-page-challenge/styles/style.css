@@ -45,7 +45,7 @@ h2 {
 .container {
     width: 50%; 
     height: 100%;
-    margin: 100px auto;
+    margin: 50px auto;
     padding: 50px;
     border-radius: 20px;
     background-color: var(--color-white);
@@ -53,11 +53,13 @@ h2 {
     flex-direction: column;
     justify-content: center;
 }
-/* .recipe-img {
-    max-width: 650px;
-} */
+.recipe-img {
+    height: auto;
+}
 img {
     width: 100%;
+    height: auto;
+    display: block;
     border-radius: 15px;
 }
 @media(max-width: 767px) {
@@ -68,11 +70,12 @@ img {
 @media(max-width:767px) {
 
     .container{
-        width: 90%;
+        width: 100%;
         border-radius: 0;
         margin-top: 0;
         margin-bottom: 0;
-    }
+        padding: 10px 10px;
+  }
 }
 @media(max-width:767px) {
     img {
@@ -103,7 +106,7 @@ hr {
 
 @media(max-width: 767px) {
     .header {
-        margin-top: 300px;
+        margin-top: 320px;
     }
     .header h1 {
         font-size: 33px;
