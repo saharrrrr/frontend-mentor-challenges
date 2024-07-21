@@ -35,7 +35,7 @@ body {
 }
 
 .container {
-    width: 550px;
+    width: 375px;
     /* max-width: 760px; */
     display: flex;
     justify-content: center;
@@ -134,11 +134,12 @@ body {
     height: auto;
     background-color: var(--color-secondry);
     color: var(--color-white);
-    margin-top: 20px;
+    margin-top: 10px;
     text-decoration: none;
-    padding: 10px 0;
+    padding: 5px 0;
     border-radius: 15px;
     text-align: center;
+
  }
 
  .nav a:hover {
