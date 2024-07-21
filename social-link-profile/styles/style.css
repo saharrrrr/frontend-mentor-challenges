@@ -34,9 +34,9 @@ body {
 }
 
 .container {
-    max-height: 100vh;
+    height: 100vh;
     width: 25%;
-    max-width: 460px;
+    max-width: 560px;
     display: flex;
     justify-content: center;
     align-items: center;
