@@ -22,7 +22,7 @@ html {
 
 /* rules for body  */
 body {
-    height: 100vh;
+    max-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,6 +30,7 @@ body {
     font-size: 1.4rem;
     font-weight: 400;
     font-family: "Red Hat", sans-serif;
+    margin: auto;
     background-image: url(/images/pattern-background-desktop.svg);
     color: var(--Desaturated-blue);
 }
@@ -42,7 +43,7 @@ body {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    margin: auto;
+    margin: 20px;
     background-color: #fff;
     border-radius: 15px;
     overflow: hidden;
@@ -51,6 +52,9 @@ body {
 @media(max-width: 767px) {
     body {
         background-image: url(/images/pattern-background-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
     }
 
     .container {
@@ -93,7 +97,7 @@ body {
 }
 @media(max-width:767px) {
     .header h1 {
-        font-size: 2.2rem;
+        font-size: 2.6rem;
     }
 
     .header p {
@@ -231,7 +235,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 20px;
     padding-top: 5px;
     font-size: 0.7rem;
 }
