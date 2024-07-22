@@ -232,13 +232,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 10px;
-    padding-bottom: 5px;
-    font-size: 1rem;
+    margin-top: 10px;
+    padding-top: 5px;
+    font-size: 0.7rem;
 }
 
 .footer a {
-    font-size: 1.3rem;
+    font-size: 1rem;
     text-decoration: none;
 }
 
