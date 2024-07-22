@@ -93,11 +93,11 @@ body {
 }
 @media(max-width:767px) {
     .header h1 {
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
 
     .header p {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         line-height: 1.1;
     }
 }
@@ -124,7 +124,7 @@ body {
 
 @media(max-width: 767px) {
     .plan .image-2 {
-        width: 50px;
+        width: 30px;
     }
 }
 
@@ -193,7 +193,7 @@ body {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    margin: 20px;
+    margin: 20px 20px 10px;
     width: 85%;
 }
 .btn a {
