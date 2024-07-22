@@ -27,16 +27,17 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-weight: 400;
     font-family: "Red Hat", sans-serif;
     background-image: url(/images/pattern-background-desktop.svg);
     color: var(--Desaturated-blue);
+    overflow: hidden;
 }
 
 /* component container  */
 .container {
-    width: 580px;
+    width: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,7 +45,8 @@ body {
     text-align: center;
     margin: auto;
     background-color: #fff;
-    border-radius: 15px
+    border-radius: 15px;
+    overflow: hidden;
 }
 
 @media(max-width: 767px) {
@@ -81,23 +83,23 @@ body {
 .header h1 {
     color: var(--Dark-blue);
     font-weight: 700;
-    font-size: 3.8rem;
+    font-size: 2.3rem;
 }
 
 .header p {
-    font-size: 2.5rem;
+    font-size: 1.2rem;
     font-weight: 500;
     line-height: 1.5;
     text-align: center;
 }
 @media(max-width:767px) {
     .header h1 {
-        font-size: 2.9rem;
+        font-size: 2rem;
     }
 
     .header p {
         font-size: 2.2rem;
-        line-height: 1.4;
+        line-height: 1.1;
     }
 }
 
@@ -139,11 +141,11 @@ body {
 .plan .price h2 {
     color: var(--Dark-blue);
     font-weight: 600;
-    font-size: 2.8rem;
+    font-size: 1.7rem;
 }
  
 .plan .price p {
-    font-size: 2.2rem;
+    font-size: 1.1rem;
     font-weight: 600;
     margin-top: -15px;
     padding-top: 0px;
@@ -170,7 +172,7 @@ body {
     padding-left: 15px;
 }
 .plan .link a {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     color: var(--Bright-blue);
     font-weight: 700;
 }
@@ -197,7 +199,7 @@ body {
 }
 .btn a {
     margin-bottom: 10px;
-    font-size: 2.8rem;
+    font-size: 1.5rem;
     font-weight: 600;
     text-decoration: none;
     border-radius: 15px;
