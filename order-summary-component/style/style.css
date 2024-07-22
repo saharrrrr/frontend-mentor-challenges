@@ -32,7 +32,6 @@ body {
     font-family: "Red Hat", sans-serif;
     background-image: url(/images/pattern-background-desktop.svg);
     color: var(--Desaturated-blue);
-    overflow: hidden;
 }
 
 /* component container  */
@@ -131,7 +130,7 @@ body {
 
 .plan .price {
     padding-left: 15px;
-    margin-left: -50px;
+    margin-left: -60px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -141,11 +140,11 @@ body {
 .plan .price h2 {
     color: var(--Dark-blue);
     font-weight: 600;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
 }
  
 .plan .price p {
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 600;
     margin-top: -15px;
     padding-top: 0px;
