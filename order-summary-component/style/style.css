@@ -119,7 +119,7 @@ body {
 }
 
 .plan .image-2 {
-    width: 50px;
+    width: 35px;
 }
 
 .plan .image-2 img {
@@ -217,7 +217,7 @@ body {
     background-color: #fff;
     color: var(--Desaturated-blue);
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 12px;
 }
 
 .btn .cancel:hover {
