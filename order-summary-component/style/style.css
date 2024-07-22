@@ -217,6 +217,7 @@ body {
     background-color: #fff;
     color: var(--Desaturated-blue);
     padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .btn .cancel:hover {
