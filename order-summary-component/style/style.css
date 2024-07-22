@@ -216,7 +216,7 @@ body {
 .btn .cancel {
     background-color: #fff;
     color: var(--Desaturated-blue);
-    padding-top: 10px;
+    /* padding-top: 10px; */
     padding-bottom: 12px;
 }
 
